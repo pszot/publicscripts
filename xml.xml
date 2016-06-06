@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY file SYSTEM "file:///./">
+ <!ENTITY % file SYSTEM "file:///./">
+ <!ENTITY % start SYSTEM "<![CDATA[">
+ <!ENTITY % end SYSTEM "]]>">
+ <!ENTITY % dtd SYSTEM "">
+ %dtd;
 ]>
 <rss version="2.0">
 <channel>
@@ -8,7 +12,7 @@
   <link>http://www.w3schools.com/xml/xml_rss.asp</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>&file;</title>
+    <title>&all;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>

